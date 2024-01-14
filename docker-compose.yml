@@ -27,3 +27,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: your-postgres-password
       POSTGRES_DB: products
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
