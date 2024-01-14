@@ -1,0 +1,28 @@
+seu-projeto-api/
+├── cmd/
+│   └── api/
+│       └── main.go        # Ponto de entrada da aplicação
+├── internal/
+│   ├── handlers/          # Handlers para rotas da API
+│   ├── services/          # Lógica de negócios
+│   └── models/            # Estruturas de dados e lógica de banco de dados
+├── pkg/
+│   └── util/              # Código compartilhável e reutilizável
+├── config/
+│   └── config.go          # Configurações da aplicação
+├── middleware/
+│   └── auth.go            # Middleware de autenticação
+├── repository/
+│   └── user.go            # Código de acesso ao banco de dados
+├── migrations/
+│   └── 001_init.sql       # Scripts de migração do banco de dados
+├── tests/
+│   ├── integration/
+│   └── unit/
+├── docs/
+│   └── swagger.yaml       # Documentação da API com Swagger
+├── Dockerfile
+├── docker-compose.yml
+├── go.mod
+├── go.sum
+└── README.md
